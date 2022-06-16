@@ -19,7 +19,7 @@
         <title></title>
     </head>
     <body>
-        <div id="map">
+        <h1>MY GREAT MAP</h1>
         </div>
         <script src="js/qgis2web_expressions.js"></script>
         <script src="js/leaflet.js"></script>
@@ -128,15 +128,7 @@
                     <tr>\
                         <td colspan="2">' + (feature.properties['jurisdiction'] !== null ? autolinker.link(feature.properties['jurisdiction'].toLocaleString()) : '') + '</td>\
                     </tr>\
-                    <tr>\
-                        <td colspan="2">' + (feature.properties['animal_name'] !== null ? autolinker.link(feature.properties['animal_name'].toLocaleString()) : '') + '</td>\
-                    </tr>\
-                    <tr>\
-                        <td colspan="2">' + (feature.properties['sex'] !== null ? autolinker.link(feature.properties['sex'].toLocaleString()) : '') + '</td>\
-                    </tr>\
-                    <tr>\
-                        <td colspan="2">' + (feature.properties['age_years'] !== null ? autolinker.link(feature.properties['age_years'].toLocaleString()) : '') + '</td>\
-                    </tr>\
+                    
                     <tr>\
                         <td colspan="2">' + (feature.properties['age_months'] !== null ? autolinker.link(feature.properties['age_months'].toLocaleString()) : '') + '</td>\
                     </tr>\
@@ -146,12 +138,7 @@
                     <tr>\
                         <td colspan="2">' + (feature.properties['secondary_color'] !== null ? autolinker.link(feature.properties['secondary_color'].toLocaleString()) : '') + '</td>\
                     </tr>\
-                    <tr>\
-                        <td colspan="2">' + (feature.properties['primary_breed'] !== null ? autolinker.link(feature.properties['primary_breed'].toLocaleString()) : '') + '</td>\
-                    </tr>\
-                    <tr>\
-                        <td colspan="2">' + (feature.properties['secondary+breed'] !== null ? autolinker.link(feature.properties['secondary+breed'].toLocaleString()) : '') + '</td>\
-                    </tr>\
+                   
                     <tr>\
                         <td colspan="2">' + (feature.properties['tag_no'] !== null ? autolinker.link(feature.properties['tag_no'].toLocaleString()) : '') + '</td>\
                     </tr>\
